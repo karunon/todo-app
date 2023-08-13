@@ -1,0 +1,7 @@
+version: '3'
+services:
+  todo:
+    build: ./build/
+    volumes:
+      - .:/workspaces
+    command: /bin/sh -c "while sleep 1000; do :; done"
