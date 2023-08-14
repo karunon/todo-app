@@ -1,2 +1,5 @@
-app/target
-app/data
+/app/target
+
+/app/data/**
+!/app/data/**/
+!/app/data/**/.gitkeep
